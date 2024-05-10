@@ -3,12 +3,16 @@
 ----------------------------------------
 
 ### __**Equipment**__
-> - !weapons 
-> - !gear 
-> - !jewelry 
+> - !weapons
+> - !gear
+> - !jewelry
 
 ### __**Travels**__
 > - !maps
+
+### __**Timers**__
+> - !sob
+> - !tasks
 
 ----------------------------------------
 {delete}
