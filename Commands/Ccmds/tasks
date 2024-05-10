@@ -1,0 +1,19 @@
+{embed;
+{embedbuild;
+  color:#e528a3;
+  title:__**Task Reminder**__;
+  description:
+***{userName}***,{n}I will remind you in 24 hours to speak to Alex at Lemontree Plaza for another task!
+{void;{roleAdd;1074911623988391996;{userName}}};
+
+thumbnail.url:https://gyazo.com/b24428c98955246cd9c380af673743c9.png;
+
+footer.text:provided by Bluntman 
+}
+  }
+
+    {timer;
+{userMention},{n}You can now speak to Alex at Lemontree Plaza for another task!;86400s}
+    {timer;{void;{roleRemove;1074911623988391996;{userName}}};86400s}
+
+{delete}

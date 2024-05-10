@@ -1,0 +1,19 @@
+{embed;
+{embedbuild;
+  color:#c27c0e;
+  title:__**Got Beer**__???;
+  description:
+***{userName}***,{n}I will remind you in 30m to take another Shot of Beer!
+{void;{roleAdd;1082467263413764136;{userName}}};
+
+thumbnail.url:https://gyazo.com/483d609bb58867495bdf20a2335e11d8.png;
+
+footer.text:provided by Bluntman
+}
+  }
+
+    {timer;
+{userMention}, You're starting to sober up{n}You can now take another Shot of Beer!;1800s}
+    {timer;{void;{roleRemove;1082467263413764136;{userName}}};1800s}
+
+{delete}
