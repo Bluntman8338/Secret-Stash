@@ -1,5 +1,10 @@
 {//; Set the array of embed messages here }
-{set;~arr;[{embedBuild;title:Welcome to Secret Stash;description:## Prefix is `!`},{embedBuild;title:Equipment;description:These are items;fields.name:__**Gear**__;fields.value:- !helmet {newline}- !armor {newline}- !boots;fields.name:__**Weapons**__;fields.value:- !weapons1 {newline}- !weapons2},{embedBuild;title:__**Materials**__;description:- !chopping {newline}- !foraging {newline}- !fishing {newline}- !mine}]}
+{set;~arr;[{embedBuild;title:Welcome to Secret Stash;description:## Prefix is `!`},
+
+{embedBuild;title:Equipment;description:These are items;fields.name:__**Gear**__;fields.value:- !helmet {newline}- !armor {newline}- !boots;fields.name:__**Weapons**__;fields.value:- !weapons1 {newline}- !weapons2;fields.name:__**Tools**__;fields.value:- !axe {newline}- !pickaxe {newline}- !fishingrods {newline}- !shears {newline}- !traps;fields.name:Jewelry;fields.value:- !rings {newline}- !necklaces;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+},
+
+{embedBuild;title:__**Materials**__;description:- !chopping {newline}- !foraging {newline}- !fishing {newline}- !mine}]}
 
 {//; Set the starting page }
 {set;~p;1}
