@@ -48,3 +48,4 @@ footer.text:Provided for Secret Stash.}]}
 
 {//;Remove all Reacts if the limit is reached}
 {if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}
+{delete}
