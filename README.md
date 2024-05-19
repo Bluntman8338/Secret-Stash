@@ -2,10 +2,13 @@
 
 In order to use the commands properly, you must format the code as such,
 ### `b!cc add <cmdName> <code>`
+`you must make sure there is a space after the <cmdName>`
+
+Do not add the `"<Space>"` in the code block below, it's only there to visually show where the space is needed.
 
 ### __**Example**__:
 ```
-b!cc add help 
+b!cc add help"<Space>"
 {embed;
 {embedBuild;
   title:__**Custom Command List**__;
@@ -29,7 +32,7 @@ footer.text:Provided for Secret Stash.
 ```
 
 
-To add the Help Menu, you need to go to the [Editor](https://blargbot.xyz/bbtag/editor "Blargbot IDE").
+To add the Help Menu, you need to go to the [Editor](https://blargbot.xyz/bbtag/editor "Blargbot IDE") & do not need to include the `b!cc add <cmdName>`.
 
 If you need any help, please reach out to me on Discord 
 
