@@ -1,0 +1,20 @@
+{embed;
+{embedBuild;
+  title:__**Custom Command List**__;
+  color:#7D91D7;
+  description:## Prefix is `!` ;
+  fields.name:!axe;
+  fields.value:
+------------------------------
+> - [Axes](https://bit.ly/Drpg-Axes "Axes")
+------------------------------
+;
+
+image.url:https://bit.ly/Drpg-Axes;
+
+thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
+ }
+{delete}
