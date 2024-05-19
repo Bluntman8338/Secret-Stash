@@ -29,8 +29,8 @@ footer.text:Provided for Secret Stash.
 ```
 
 
-To add the Help Menu, you need to go to the [Editor](https://blargbot.xyz/bbtag/editor "Blargbot IDE") to add it.
+To add the Help Menu, you need to go to the [Editor](https://blargbot.xyz/bbtag/editor "Blargbot IDE").
 
-If you need any help please reach out to me on Discord 
+If you need any help, please reach out to me on Discord 
 
 @bluntman8338
