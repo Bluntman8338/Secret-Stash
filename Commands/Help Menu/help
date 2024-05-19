@@ -6,7 +6,7 @@ footer.text:Provided for Secret Stash.},
 footer.text:Provided for Secret Stash.
 },
 
-{embedBuild;title:__**Materials**__;description:;color:#7D91D7;fields.name:__**Sides**__;fields.value:- !chopping {newline}- !foraging {newline}- !fishing {newline}- !mine;fields.name:__**Yields**__;fields.value:- !trapping {newline}- !planting {newline}- !cracking;fields.name:__**Dungeons**__;fields.value:- !dungeons {newline}- !chests;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+{embedBuild;title:__**Materials**__;description:;color:#7D91D7;fields.name:__**Sides**__;fields.value:- !chopping {newline}- !foraging {newline}- !fishing {newline}- !mine;fields.name:__**Yields**__;fields.value:- !hunting {newline}- !planting {newline}- !cracking;fields.name:__**Dungeons**__;fields.value:- !dungeons {newline}- !chests;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
 footer.text:Provided for Secret Stash.}]}
 
 {//; Set the starting page }
