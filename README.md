@@ -36,4 +36,4 @@ To add the Help Menu, you need to go to the [Editor](https://blargbot.xyz/bbtag/
 
 If you need any help, please reach out to me on Discord 
 
-@bluntman8338
+@dr_bong8338
