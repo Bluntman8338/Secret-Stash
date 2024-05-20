@@ -1,13 +1,17 @@
 {//; Set the array of embed messages here }
-{set;~arr;[{embedBuild;title:Welcome to Secret Stash;description:## Custom Command's Prefix is `!` {newline}### DRPG's Prefix is `/`;color:#7D91D7;image.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+{set;~arr;[{embedBuild;title:Welcome to Secret Stash;description:### Custom Command's Prefix is `!` {newline}## DRPG's Prefix is `/`;color:#7D91D7;image.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
 footer.text:Provided for Secret Stash.},
 
-{embedBuild;title:Equipment;description:These are items;color:#7D91D7;fields.name:__**Gear**__;fields.value:- !helmet {newline}- !armor {newline}- !boots;fields.name:__**Weapons**__;fields.value:- !weapons1 {newline}- !weapons2;fields.name:__**Tools**__;fields.value:- !axe {newline}- !pickaxe {newline}- !fishingrods {newline}- !shears {newline}- !traps;fields.name:Jewelry;fields.value:- !rings {newline}- !necklaces;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+{embedBuild;title:Equipment;description:;color:#7D91D7;fields.name:__**Gear**__;fields.value:- !helmet {newline}- !armor {newline}- !boots;fields.name:__**Weapons**__;fields.value:- !weapons1 {newline}- !weapons2;fields.name:__**Tools**__;fields.value:- !axe {newline}- !pickaxe {newline}- !fishingrods {newline}- !shears;fields.name:Jewelry;fields.value:- !rings {newline}- !necklaces;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
 footer.text:Provided for Secret Stash.
 },
 
 {embedBuild;title:__**Materials**__;description:;color:#7D91D7;fields.name:__**Sides**__;fields.value:- !chopping {newline}- !foraging {newline}- !fishing {newline}- !mine;fields.name:__**Yields**__;fields.value:- !hunting {newline}- !planting {newline}- !cracking;fields.name:__**Dungeons**__;fields.value:- !dungeons {newline}- !chests;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.},
+
+{embedBuild;title:__**Travels**__;description:;color:#7D91D7;fields.name:__**Location**__;fields.value:- !maps1 {newline}- !maps2;thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
 footer.text:Provided for Secret Stash.}]}
+
 
 {//; Set the starting page }
 {set;~p;1}
