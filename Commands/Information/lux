@@ -1,0 +1,24 @@
+{embed;
+{embedBuild;
+  title:__**Custom Command List**__;
+  color:#7D91D7;
+  description:## Prefix is `!` ;
+  fields.name:!lux;
+  fields.value:
+------------------------------
+> - **__Uses for LUX__**
+> - Used to buy beer from the NPC Mathilda located at The Sick Dahlia which increases your strength by x1.35 for 2 hrs
+> - Used to buy a field at Lemontree plaza
+> - Used to increase rune capacity(Peter @ Sanctum of Serinity)
+> - Buy books. tagbot books
+> - Buy Felix's Rod from Felix @ Lemontree Plaza
+> - Install gems
+------------------------------
+;
+
+thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
+ }
+{delete}
