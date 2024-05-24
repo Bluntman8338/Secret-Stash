@@ -32,7 +32,7 @@ footer.text:Provided for Secret Stash.
 ```
 
 
-To add the Help Menu, you need to go to the [Editor](https://blargbot.xyz/bbtag/editor "Blargbot IDE") & do not need to include the `b!cc add <cmdName>`.
+To add the Help Menu|Weapons|Maps, you need to go to the [Editor](https://blargbot.xyz/bbtag/editor "Blargbot IDE") & do not need to include the `b!cc add <cmdName>`.
 
 If you need any help, please reach out to me on Discord 
 
