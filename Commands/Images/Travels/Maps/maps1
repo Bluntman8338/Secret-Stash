@@ -23,7 +23,7 @@
     footer.text:Provided for Secret Stash.
 },
 
-    {embedBuild;
+  {embedBuild;
     title:__**Map of**__;
     color:#7D91D7;
     description:## SIRILLA;
