@@ -1,43 +1,124 @@
-Boosts 
-+ XpBoost :: Increases your XP gained, from killing mobs, by percentage.
-# Formula :: +1% for every 10 xpboost points
-==========
-+ GoldBoost :: Increases your gold gain, from killing mobs, by percentage.
-# Formula :: +1% for every 10 goldboost points
-==========
+{//; Set the array of embed messages here }
+{set;~arr;[
+      {embedBuild;
+    title:Welcome to Secret Stash;
+    description:## !attributes;
+    color:#7D91D7;
+    fields.name:Recommended Build;
+    fields.value:The most recommended build is a Strength & XP Boost!;
 
-Combat
-+ Criticals :: Increases your critical rate.
-# Formula :: +1% for every 80 critical points
-==========
-+ Strength :: Increases your base damage you do
-# Formula :: +1 dmg for every 10 strength points
-==========
-+ Defence :: Reduces the damage you take
-# Formula :: +1 damge reduction for every 10 defence points
-==========
-
-Yeilds
-- Taming 
-    Increases your changes of successfully catching a pet
-• Formula :: N/A(More points = Better chance of catching)
-==========
-+ Reaping :: Increases the amount of items you get from plant.
-# Formula :: N/A (More points = Better payout)
-==========
-+ Salvaging :: Increases the amount of items you get from traps.
-# Formula :: N/A (More points = Better payout)
-==========
-+ Scavenging :: Increases the items you get from foraging
-# Formula :: +1 item for every 65 scavanging points
-# Extra :: +1 Forage skill XP per 125 points
-==========
-+ Mine Boost :: Increases the amount of items you get from #!mine
-# Formula :: +1 item for every 40 mine boost points
-# Extra :: +1 Mine skill XP per 125 points
-==========
-+ Lumber Boost :: Increases the amount of logs you get from #!chop
-# Formula :: +1 log for every 25 lumber boost points
-# Extra :: +1 Chop skill XP per 125 points
+    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+    footer.text:Provided for Secret Stash.
+    },
+    
+    {embedBuild;
+title: __**Boosts**__;
+color:#7D91D7; 
+fields.name: • __**XpBoost**__; 
+fields.value: - Increases your XP gained, from killing mobs, by percentage.
+    -  Formula :: +1% for every 10 xpboost points;
 
 
+fields.name: • __**GoldBoost**__;
+fields.value: - Increases your gold gain, from killing mobs, by percentage.
+    - Formula :: +1% for every 10 goldboost points;
+ thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+    footer.text:Provided for Secret Stash.
+},
+    
+      {embedBuild;
+    title: __**Combat**__;
+    color:#7D91D7; 
+    fields.name: • __**Criticals**__; 
+     fields.value: - Increases your critical rate.
+    - Formula :: +1% for every 80 critical points;
+
+fields.name: • __**Strength**__;
+fields.value: - Increases your base damage you do
+    - Formula :: +1 dmg for every 10 strength points;
+
+fields.name: • __**Defence**__;
+fields.value: - Reduces the damage you take
+    - Formula :: +1 damge reduction for every 10 defence points;
+ thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+    footer.text:Provided for Secret Stash.
+},
+
+{embedBuild;
+title:__**Yeilds**__;
+color:#7D91D7;
+fields.name:• __**Taming**__;
+fields.value: - Increases your changes of successfully catching a pet
+    - Formula :: N/A(More points = Better chance of catching);
+
+fields.name:• __**Reaping**__; 
+fields.value: - Increases the amount of items you get from plant.
+    - Formula :: N/A (More points = Better payout);
+
+fields.name:• __**Salvaging**__; 
+fields.value: - Increases the amount of items you get from traps.
+    - Formula :: N/A (More points = Better payout);
+
+fields.name:• __**Scavenging**__;
+fields.value: - Increases the items you get from /forage
+    - Formula :: +1 item for every 65 scavanging points
+    - Extra :: +1 Forage skill XP per 125 points;
+
+fields.name:• __**Mine Boost**__;
+fields.value: - Increases the amount of items you get from /mine
+    - Formula :: +1 item for every 40 mine boost points
+    - Extra :: +1 Mine skill XP per 125 points;
+
+fields.name: • __**Lumber Boost**__;
+fields.value: - Increases the amount of logs you get from /chop
+    - Formula :: +1 log for every 25 lumber boost points
+    - Extra :: +1 Chop skill XP per 125 points;
+    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+    footer.text:Provided for Secret Stash.
+}
+]}
+
+{//; Set the starting page }
+{set;~p;1}
+
+{//; Calculate the max page }
+{set;~maxp;{length;{get;~arr}}}
+
+{//; Send the initial message with the first page }
+{set;~msgid;{output;{embed;{get;~arr;0}}}}
+
+{//; Add the left and right arrow reactions }
+{reactionAdd;{get;~msgid};◀;▶}
+
+{//; Set Reaction Count}
+{set;~reactcount;0}
+{while;{get;~reactcount};<;10;
+    {set;~reaction;{waitreaction;{get;~msgid};{userid};◀▶;true;300}}
+    {switch;{get;~reaction;3};
+        ◀;{//;Go to Previous Page}
+            {if;{get;~p};<=;1;{set;~p;1};{void;{decrement;~p}}}
+            {//; Edit the message with the new content}
+            {edit;{get;~msgid};;{get;~arr;{math;-;{get;~p};1}}}
+            {reactionRemove;{get;~msgid};{userid};◀;▶}
+            {//;Add to react count}
+            {void;{increment;~reactcount}}
+            {//;Change P}
+            {if;{get;~p};>;1;{set;~p;{math;-;{get;~p};1}}};
+        ▶;{//;Go to Next Page}
+            {if;{get;~p};>=;{get;~maxp};{set;~p;{get;~maxp}};{void;{increment;~p}}}
+            {//; Edit the message with the new content}
+            {edit;{get;~msgid};;{get;~arr;{math;-;{get;~p};1}}}
+            {reactionRemove;{get;~msgid};{userid};◀;▶}
+            {//;Add to react count}
+            {void;{increment;~reactcount}};
+        timeout;{reactremoveall;{get;~msgid}}
+    }
+}
+
+{//;Remove all Reacts if the limit is reached}
+{if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}
+{if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}
