@@ -5,15 +5,9 @@
 footer.text:Provided for Secret Stash.},
     
     {embedBuild;
-      title:__**Custom Command List**__;
+      title:__**Weapons**__;
       color:#7D91D7;
-      description:## Weapons lvl 1-80;
-      fields.name:!weapons;
-      fields.value:
-------------------------------
-> - [Lvl 1-80](https://bit.ly/Drpg-Weapons_Lvl_1-80 "Lvl 1-80")
-------------------------------
-;
+      description:## 1-80;
 
 image.url:https://bit.ly/Drpg-Weapons_Lvl_1-80;
 
@@ -23,15 +17,9 @@ footer.text:Provided for Secret Stash.
 },
 
     {embedBuild;
-      title:__**Custom Command List**__;
+      title:__**Weapons**__;
       color:#7D91D7;
-      description:## Weapons lvl 90-4000;
-      fields.name:!weapons;
-      fields.value:
-------------------------------
-> - [Lvl 90-4000](https://bit.ly/Drpg-Weapons_Lvl_90-4000 "Lvl 90-4000")
-------------------------------
-;
+      description:## 90-4000;
 
 image.url:https://bit.ly/Drpg-Weapons_Lvl_90-4000;
 
