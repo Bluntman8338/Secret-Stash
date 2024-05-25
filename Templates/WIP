@@ -1,0 +1,53 @@
+{//; Set the array of embed messages here }
+{set;~arr;[
+      {embedBuild;
+    title:Welcome to Secret Stash;
+    description:## !;
+    color:#7D91D7;
+
+    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+    footer.text:Provided for Secret Stash.
+    },
+]}
+
+{//; Set the starting page }
+{set;~p;1}
+
+{//; Calculate the max page }
+{set;~maxp;{length;{get;~arr}}}
+
+{//; Send the initial message with the first page }
+{set;~msgid;{output;{embed;{get;~arr;0}}}}
+
+{//; Add the left and right arrow reactions }
+{reactionAdd;{get;~msgid};◀;▶}
+
+{//; Set Reaction Count}
+{set;~reactcount;0}
+{while;{get;~reactcount};<;10;
+    {set;~reaction;{waitreaction;{get;~msgid};{userid};◀▶;true;300}}
+    {switch;{get;~reaction;3};
+        ◀;{//;Go to Previous Page}
+            {if;{get;~p};<=;1;{set;~p;1};{void;{decrement;~p}}}
+            {//; Edit the message with the new content}
+            {edit;{get;~msgid};;{get;~arr;{math;-;{get;~p};1}}}
+            {reactionRemove;{get;~msgid};{userid};◀;▶}
+            {//;Add to react count}
+            {void;{increment;~reactcount}}
+            {//;Change P}
+            {if;{get;~p};>;1;{set;~p;{math;-;{get;~p};1}}};
+        ▶;{//;Go to Next Page}
+            {if;{get;~p};>=;{get;~maxp};{set;~p;{get;~maxp}};{void;{increment;~p}}}
+            {//; Edit the message with the new content}
+            {edit;{get;~msgid};;{get;~arr;{math;-;{get;~p};1}}}
+            {reactionRemove;{get;~msgid};{userid};◀;▶}
+            {//;Add to react count}
+            {void;{increment;~reactcount}};
+        timeout;{reactremoveall;{get;~msgid}}
+    }
+}
+
+{//;Remove all Reacts if the limit is reached}
+{if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}
+{if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}

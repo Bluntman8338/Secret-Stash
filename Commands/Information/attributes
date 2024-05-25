@@ -1,3 +1,4 @@
+Boosts 
 + XpBoost :: Increases your XP gained, from killing mobs, by percentage.
 # Formula :: +1% for every 10 xpboost points
 ==========
@@ -5,6 +6,7 @@
 # Formula :: +1% for every 10 goldboost points
 ==========
 
+Combat
 + Criticals :: Increases your critical rate.
 # Formula :: +1% for every 80 critical points
 ==========
@@ -15,8 +17,10 @@
 # Formula :: +1 damge reduction for every 10 defence points
 ==========
 
-+ Taming :: Increases your changes of successfully catching a pet
-# Formula :: N/A(More points = Better chance of catching)
+Yeilds
+- Taming 
+    Increases your changes of successfully catching a pet
+• Formula :: N/A(More points = Better chance of catching)
 ==========
 + Reaping :: Increases the amount of items you get from plant.
 # Formula :: N/A (More points = Better payout)
@@ -35,3 +39,5 @@
 + Lumber Boost :: Increases the amount of logs you get from #!chop
 # Formula :: +1 log for every 25 lumber boost points
 # Extra :: +1 Chop skill XP per 125 points
+
+
