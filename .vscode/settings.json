@@ -3,9 +3,22 @@
     "editor.wordWrap": "on",
     "editor.fontSize": 16,
     "workbench.commandPalette.experimental.suggestCommands": true,
-    "workbench.colorTheme": "Github Purple",
+    "workbench.colorTheme": "Purple-Codain",
     "workbench.preferredDarkColorTheme": "Default Dark Modern",
     "bbtag.trace.server": "verbose",
     "bbtag.maxNumberOfProblems": 100,
-    "editor.defaultFormatter": "blargbot.bbtag"
+    "editor.defaultFormatter": "blargbot.bbtag",
+    "material-icon-theme.folders.color": "#ef5350",
+    "material-icon-theme.files.color": "#42a5f5",
+    "material-icon-theme.files.customClones": [
+        {
+          "name": "BBTag",
+          "base": "blargbot",
+          "color": "blue-400",
+          "lightColor": "light-blue-600",
+          "fileNames": ["Blarg"]
+        }
+      ],
+      "files.autoSave": "onWindowChange"
 }
+
