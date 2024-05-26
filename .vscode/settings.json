@@ -1,0 +1,11 @@
+{
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.colorTheme": "Github Purple",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "bbtag.trace.server": "verbose",
+    "bbtag.maxNumberOfProblems": 100,
+    "editor.defaultFormatter": "blargbot.bbtag"
+}
