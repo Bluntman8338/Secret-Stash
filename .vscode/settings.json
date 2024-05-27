@@ -8,6 +8,11 @@
     "bbtag.trace.server": "verbose",
     "bbtag.maxNumberOfProblems": 100,
     "editor.defaultFormatter": "blargbot.bbtag",
-      "files.autoSave": "onWindowChange"
+      "files.autoSave": "onWindowChange",
+      "material-icon-theme.activeIconPack": "none",
+      "material-icon-theme.files.color": "#535353",
+      "material-icon-theme.folders.color": "#fdd835",
+      "material-icon-theme.folders.theme": "classic",
+      "material-icon-theme.hidesExplorerArrows": true
 }
 
