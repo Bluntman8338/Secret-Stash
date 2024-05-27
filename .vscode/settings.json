@@ -10,8 +10,8 @@
     "editor.defaultFormatter": "blargbot.bbtag",
       "files.autoSave": "onWindowChange",
       "material-icon-theme.activeIconPack": "none",
-      "material-icon-theme.files.color": "#535353",
-      "material-icon-theme.folders.color": "#fdd835",
+      "material-icon-theme.files.color": "#C5C4F9",
+      "material-icon-theme.folders.color": "#956CB2",
       "material-icon-theme.folders.theme": "classic",
       "material-icon-theme.hidesExplorerArrows": true
 }
