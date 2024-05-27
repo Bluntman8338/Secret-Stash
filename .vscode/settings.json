@@ -13,6 +13,6 @@
       "material-icon-theme.files.color": "#C5C4F9",
       "material-icon-theme.folders.color": "#956CB2",
       "material-icon-theme.folders.theme": "classic",
-      "material-icon-theme.hidesExplorerArrows": true
+      "material-icon-theme.hidesExplorerArrows": false
 }
 
