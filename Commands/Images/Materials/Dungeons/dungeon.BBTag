@@ -1,15 +1,15 @@
 {//; Set the array of embed messages here }
 {set;~arr;[
-      {embedBuild;
+  {embedBuild;
     title:Welcome to Secret Stash;
     description:!dungeon;
     color:#7D91D7;
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
-    };
+    },
     
-      {embedBuild;
+  {embedBuild;
     title:__**General Info**__;
     description:### **Minimum level Requirement**: `25`
 
@@ -35,9 +35,9 @@ __**Formula for dungeon entrance?**__
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
-};
+},
 
-      {embedBuild;
+  {embedBuild;
     title:Welcome to the Dungeon Guide;
     description:
 > 1. Travel to a dungeon area, such as `redhorn dungeon`
@@ -82,9 +82,9 @@ __**Formula for dungeon entrance?**__
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
-};
+},
 
-      {embedBuild;
+  {embedBuild;
     title:__**Custom Command List**__;
     color:#7D91D7;
     description:Items you can collect while in the Dungeon.;
@@ -94,9 +94,9 @@ __**Formula for dungeon entrance?**__
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
-};
+},
 
-      {embedBuild;
+  {embedBuild;
     title:__**Gemstones**__;
     description:**The effect each gem has on each item type.**;
 
