@@ -36,4 +36,4 @@ To add the Help Menu|Weapons|Maps, you need to go to the [Editor](https://blargb
 
 If you need any help, please reach out to me on Discord 
 
-@dr_bong8338
+@bluntman8338
