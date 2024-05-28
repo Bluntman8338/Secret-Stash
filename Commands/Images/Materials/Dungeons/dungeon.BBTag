@@ -1,23 +1,13 @@
-{embedBuild;
-  title:__**Custom Command List**__;
-  color:#7D91D7;
-  description:Items you can collect while in the Dungeon.;
-
-image.url:https://bit.ly/Drpg-Dungeons;
-
-thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-footer.text:Provided for Secret Stash.
-};
-
-
-
-
-
-
-
-
-
+{//; Set the array of embed messages here }
+{set;~arr;[
+      {embedBuild;
+    title:Welcome to Secret Stash;
+    description:!dungeon;
+    color:#7D91D7;
+    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+    footer.text:Provided for Secret Stash.
+    };
     
       {embedBuild;
     title:__**General Info**__;
@@ -41,6 +31,7 @@ __**Formula for dungeon entrance?**__
 > `(25000+50*Level^1.5)`
 > - You have to pay a certain amount of Gold EVERY time you enter a dungeon;
 
+    color:#7D91D7;
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
@@ -87,6 +78,7 @@ __**Formula for dungeon entrance?**__
 > 6. Take the stairs using ✅  to go to the next floor, or ⏺ to leave.;
 
     image.url:https://bit.ly/Drpg-Dungeon_Example1;
+    color:#7D91D7;
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
@@ -106,37 +98,42 @@ __**Formula for dungeon entrance?**__
 
       {embedBuild;
     title:__**Gemstones**__;
-    description:**The effect each gem has on each item type.**
+    description:**The effect each gem has on each item type.**;
 
-__**Rings**__
+fields.name:__**Rings**__;
+fields.value:
 ```
 - Sapphire: +3% Ring Potency
-```
+```;
 
-__**Armor**__
+fields.name:__**Armor**__;
+fields.value:
 ```
 - Amethyst: +5% Damage Blocked
 - Sapphire: +3% XP Boost
 - Emerald: +3% Gold Boost
 - Opal: +2% Critical Chance
-```
+```;
 
-__**Necklace**__
+fields.name:__**Necklace**__;
+fields.value:
 ```
 - Ruby: +5% Damage Boost
 - Sapphire: +3% XP Boost
 - Emerald: +3% Gold Boost
 - Opal: +2% Critical Chance
-```
+```;
 
-__**Tools**__
+fields.name:__**Tools**__;
+fields.value:
 ```
 - Ruby: +2 Item Boost
 - Jade: +2 Skill XP
-- Opal: +2 Catch Chance (Applies only to Fishing Rods)
+- Opal: +2 Catch Chance (Applies only to Fishing Rods);
 ```
 
-__**Weapons**__
+fields.name:__**Weapons**__;
+fields.value:
 ```
 - Ruby: +10% Damage Boost
 - Sapphire: +3% XP Boost
@@ -150,3 +147,45 @@ __**Weapons**__
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
 }
+]}
+
+{//; Set the starting page }
+{set;~p;1}
+
+{//; Calculate the max page }
+{set;~maxp;{length;{get;~arr}}}
+
+{//; Send the initial message with the first page }
+{set;~msgid;{output;{embed;{get;~arr;0}}}}
+
+{//; Add the left and right arrow reactions }
+{reactionAdd;{get;~msgid};◀;▶}
+
+{//; Set Reaction Count}
+{set;~reactcount;0}
+{while;{get;~reactcount};<;10;
+    {set;~reaction;{waitreaction;{get;~msgid};{userid};◀▶;true;300}}
+    {switch;{get;~reaction;3};
+        ◀;{//;Go to Previous Page}
+            {if;{get;~p};<=;1;{set;~p;1};{void;{decrement;~p}}}
+            {//; Edit the message with the new content}
+            {edit;{get;~msgid};;{get;~arr;{math;-;{get;~p};1}}}
+            {reactionRemove;{get;~msgid};{userid};◀;▶}
+            {//;Add to react count}
+            {void;{increment;~reactcount}}
+            {//;Change P}
+            {if;{get;~p};>;1;{set;~p;{math;-;{get;~p};1}}};
+        ▶;{//;Go to Next Page}
+            {if;{get;~p};>=;{get;~maxp};{set;~p;{get;~maxp}};{void;{increment;~p}}}
+            {//; Edit the message with the new content}
+            {edit;{get;~msgid};;{get;~arr;{math;-;{get;~p};1}}}
+            {reactionRemove;{get;~msgid};{userid};◀;▶}
+            {//;Add to react count}
+            {void;{increment;~reactcount}};
+        timeout;{reactremoveall;{get;~msgid}}
+    }
+}
+
+{//;Remove all Reacts if the limit is reached}
+{if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}
+{if;{get;~reactcount};==;10;{reactremoveall;{get;~msgid}}}
