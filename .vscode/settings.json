@@ -1,7 +1,7 @@
 {
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "editor.fontSize": 16,
+    "editor.fontSize": 20,
     "workbench.commandPalette.experimental.suggestCommands": true,
     "workbench.colorTheme": "Purple-Codain",
     "workbench.preferredDarkColorTheme": "Default Dark Modern",
