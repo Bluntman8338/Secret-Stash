@@ -130,7 +130,7 @@ fields.value:
 - Ruby: +2 Item Boost
 - Jade: +2 Skill XP
 - Opal: +2 Catch Chance (Applies only to Fishing Rods);
-```
+```;
 
 fields.name:__**Weapons**__;
 fields.value:
