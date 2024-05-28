@@ -7,27 +7,31 @@
     thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
     footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
     footer.text:Provided for Secret Stash.
-    },
-    
+  },
+
   {embedBuild;
     title:__**General Info**__;
-    description:### **Minimum level Requirement**: `25`
+    description:### **Minimum level Requirement**: `25`;
 
-__**Current Dungeon Locations**__
+      fields.name:__**Current Dungeon Locations**__;
+      fields.value:
 >  - Redhorn Dungeon
 >    - You cannot do side activities in a dungeon
->    - If you die in a dungeon you lose the gold and xp you gained and the items you acquired
+>    - If you die in a dungeon you lose the gold and xp you gained and the items you acquired;
 
-__**Dungeon Rewards**__
+      fields.name:__**Dungeon Rewards**__;
+      fields.value:
 >   - Gemstones
 >   - Random items
->   - XP and Gold
+>   - XP and Gold;
  
-__**How do i check my #!inv?**__
+      fields.name:__**How do i check my #!inv?**__;
+      fields.value:
 > - use `#!dinv`
->   - you can only use items found in the dungeon
+>   - you can only use items found in the dungeon;
 
-__**Formula for dungeon entrance?**__
+      fields.name:__**Formula for dungeon entrance?**__;
+      fields.value:
 > `(25000+50*Level^1.5)`
 > - You have to pay a certain amount of Gold EVERY time you enter a dungeon;
 
@@ -96,15 +100,14 @@ __**Formula for dungeon entrance?**__
     footer.text:Provided for Secret Stash.
 },
 
-  {embedBuild;
-    title:__**Gemstones**__;
-    description:**The effect each gem has on each item type.**;
+{embedBuild;
+title:__**Gemstones**__;
+description:**The effect each gem has on each item type.**; 
 
 fields.name:__**Rings**__;
 fields.value:
 ```
-- Sapphire: +3% Ring Potency
-```;
+- Sapphire: +3% Ring Potency```;
 
 fields.name:__**Armor**__;
 fields.value:
@@ -112,8 +115,7 @@ fields.value:
 - Amethyst: +5% Damage Blocked
 - Sapphire: +3% XP Boost
 - Emerald: +3% Gold Boost
-- Opal: +2% Critical Chance
-```;
+- Opal: +2% Critical Chance```;
 
 fields.name:__**Necklace**__;
 fields.value:
@@ -121,16 +123,14 @@ fields.value:
 - Ruby: +5% Damage Boost
 - Sapphire: +3% XP Boost
 - Emerald: +3% Gold Boost
-- Opal: +2% Critical Chance
-```;
+- Opal: +2% Critical Chance```;
 
 fields.name:__**Tools**__;
 fields.value:
 ```
 - Ruby: +2 Item Boost
 - Jade: +2 Skill XP
-- Opal: +2 Catch Chance (Applies only to Fishing Rods);
-```;
+- Opal: +2 Catch Chance (Applies only to Fishing Rods)```;
 
 fields.name:__**Weapons**__;
 fields.value:
@@ -139,13 +139,12 @@ fields.value:
 - Sapphire: +3% XP Boost
 - Emerald: +3% Gold Boost
 - Opal: +5% Critical Chance
-- Onyx: +1% Life Steal
-```;
+- Onyx: +1% Life Steal```;
 
-    color:#7D91D7;
-    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-    footer.text:Provided for Secret Stash.
+  color:#7D91D7;
+thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
 }
 ]}
 
