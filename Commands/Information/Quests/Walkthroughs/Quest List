@@ -1,0 +1,56 @@
+__**Quests**__
+```
+• Cult Of MOUKN → [tagbot templequest]
+↳ level req: 10
+• The Quest About Wood? → [tagbot woodquest]
+↳ level req: 14
+• The Cold North → [tagbot coldnorth]
+↳ level req: 25
+• Fickle Fishing → [tagbot ficklefishing]
+↳ level req: 25
+• Exotic Eggnog → [tagbot eggnog]
+↳ level req: 25
+• A Small Task → [tagbot smalltask]
+↳ level req: 25
+• The Land Above → [tagbot thelandabove]
+↳ level req: 25
+• Namazu → [tagbot namazu]
+↳ level req: 30
+• Telling Tale → [tagbot tellingtales]
+↳ level req: 40
+• Aestons First Firework → [tagbot firstfirework]
+↳ level req: 50
+• Great Disturbance → [tagbot greatdisturbance]
+↳ level req: 50
+• Meditative Magic → [tagbot meditative]
+↳ level req: 75
+• Magical Pandemic → [tagbot magicalpandemic]
+↳ level req: 75
+• Western Tales → [tagbot westerntales]
+↳ level req: 100
+<-------------------------->
+{Quests: "Members only"}
+• Baffling Baking → [tagbot bafflingbaking]
+↳ level req: 12
+• Menu Specials → [tagbot menuspecial]
+↳ level req: 12
+• Dragon Slayer → [tagbot dragonslayer]
+↳ level req: 25
+• Mystic Gravestone → [tagbot mysticgravestone]
+↳ level req: 30
+• Bakoushis Bunny → [tagbot bakoushisbunny]
+↳ level req: 45
+
+
+"Expired Quests"
+. Spooktober Spectacle → [tagbot SpooktoberSpectacle]
+↳ Level Req: 5 ("4th November 2017")
+. Trick or Treat → [tagbot trickortreat]
+↳ Level Req: 5 ("4th November 2017")
+. How to keep a mummy [tagbot mummyquest]
+↳ Level Req: 10 ("31 October 2018")
+. Naughty or Nice → [tagbot naughtyornice]
+↳ Level Req 30 ("14th December 2019")
+. No Sleighbells → [tagbot nosleighbells]
+↳ Level Req: 30 ("14th December 2019")
+```
