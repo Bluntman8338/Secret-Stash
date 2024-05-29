@@ -1,0 +1,16 @@
+**__```md
+[Cult of MOUKN](Level 10)```__**```prolog
+1. Travel to Temple of MOUKN
+2. Talk Pope Seth
+3. Travel to Copperfall Swamp
+4. Talk to priest
+5. Use #!search to find herb
+6. Talk to priest again
+7. Go back to Temple of MOUKN and talk to Popes Seth.``````diff
+Rewards:
++ MOUKN figurine
++ 200xp
++ 300 Gold
++ 1 Quest point``````ini
+• If you are unable to start the quest it is either that your level is to low or you already have a quest on.
+• Use [#!quest] and react to 1 to stop your current quest```
