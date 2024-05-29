@@ -1,0 +1,26 @@
+{embed;
+{embedBuild;
+title:A Quest about Wood?;
+description:Level Requirement (Level 14);
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Travel to Miree and talk to Lumberjack Elliot
+2. Gather 300 Regular Logs, 250 Oak Logs, 150 Willow Logs and 50 Maple Logs
+3. Talk to Lumberjack Elliot
+4. Defeat des Ent(You will get a special stick)
+5. Talk to Lumberjack Elliot;
+
+
+fields.name:__**Rewards**__:;
+fields.value:
++ The True Wood Cutter
++ 1,000 XP
++ 750 Gold
++ 1 Quest Point;
+
+  color:#7D91D7;
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
+   }
+  }

@@ -1,0 +1,28 @@
+{embed;
+{embedBuild;
+title:The Cold North;
+description: Level Requirement (Level 25);
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Go to Frostridge and talk to Nieves
+2. Go to Blackburn Mountain and talk to Illyena.
+3. Use '#!search' to find the yeti hair.
+4. Talk to Illyena.
+5. Fight and defeat Yeti.
+6. Talk to Illyena.;
+
+
+fields.name:__**Rewards**__:;
+fields.value:
++ Yeti hair
++ Yeti fur
++ 200 XP
++ 300 Gold
++ 1 quest point;
+
+  color:#7D91D7;
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
+ }
+}
