@@ -1,0 +1,28 @@
+{embed;
+{embedBuild;
+title:A Small Task;
+description:Level Requirement (level 25)
+**Req 4 Quest Points**;
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Talk to Nadia at Ashgate in Primeval
+2. Talk to Isabella at Ashgate
+3. Talk to Elizabeth at The Sick Dahlia
+4. Talk to Madeleine at Maple Grove
+5. Talk to Catrina at Buckleport
+6. Talk to Stella at Redhorn
+7. Talk to Hubert at Sanctum of Serenity
+8. Talk to Copperfall Monk at Copperfall Summit
+9. Solve the Puzzle Box
+   - Once puzzle box is complete, backtrack and talk to Hubert, then Stella, then Catrina, then Madeleine, then Elizabeth, then Isabelle, then Nadia.;
+
+fields.name:__**Rewards**__:;
+fields.value:
++ 1,500 XP
++ 1,500 Gold
++ 2 Quest Points;
+
+  color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
+ }
+}
