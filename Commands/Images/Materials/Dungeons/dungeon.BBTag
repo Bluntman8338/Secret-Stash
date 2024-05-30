@@ -25,9 +25,9 @@
 >   - Random items
 >   - XP and Gold;
  
-      fields.name:__**How do i check my #!inv?**__;
+      fields.name:__**How do i check my /inv?**__;
       fields.value:
-> - use `#!dinv`
+> - use `/dinv`
 >   - you can only use items found in the dungeon;
 
       fields.name:__**Formula for dungeon entrance?**__;
@@ -47,7 +47,6 @@
 > 1. Travel to a dungeon area, such as `redhorn dungeon`
 
 > 2. Begin your journey using `#!dungeon start` and pay the fee.
->  - For fee formula use `tagbot dungeonfee`
 >  - Remember to fully heal yourself and your pet before entering 
 
 > 3. Wait for your dungeon to load. It should look something like this:
