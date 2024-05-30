@@ -1,0 +1,30 @@
+{embed;
+{embedBuild;
+title:Fickle Fishing;
+description:Level Requirement (Level 25);
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Travel to Rivermouth
+2. Talk to Angler Dave
+3. Gather 7 Freshwater Fish, 3 Crabs and 1 Octopus(Just use #!buy lol)
+4. Ensure that you do not have an active adventure THEN Talk to Angler Dave
+5. Catch 4 Tunas at Mournstead
+6. Talk to Angler Dave
+7. Go to Frostridge shore and talk to Angler John
+8. Get a Ice Whale Fin by defeating whales in Frostridge Shore(They gonna extinct)
+9. Go to Rivermouth and and talk to Angler Dave;
+
+
+fields.name:__**Rewards**__:;
+fields.value:
++ 1 Quest Point
++ 2,500 XP
++ 3,000 Gold
++ Angler's Rod;
+
+color:#7D91D7;
+thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
+}

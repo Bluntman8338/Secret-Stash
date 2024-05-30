@@ -1,0 +1,35 @@
+{embed;
+{embedBuild;
+Exotic Eggnog Christmas Quest; 
+Level Requirement (level 25);
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Travel to Frostridge
+2. Talk to Cupun
+3. Travel to Frostridge Tavern
+4. Talk to Nanurjuk
+  - Talk to him again and pay 500g
+  - Talk to him again and pay 1,000g
+  - Talk to him again and pay 2,000g and complete the brew recipe for Eggnog
+5. Brew eggnog
+  - brew for 5-10 minutes using 5 Eggs, 1 Bag Of Sugar, 2 Milk and 1 Empty Vial
+  - /brew egg 5 bag of sugar 1 milk 2 empty vial 1
+*get milk using /buy milk*
+6. Talk to Nanurjuk again
+7. Travel back to Frostridge
+8. Talk to Cupun to complete the quest;
+
+
+fields.name:Rewards**__:;
+fields.value:
++ A bottle of Eggnog
++ 1,000 XP
++ 1,000 Gold
++ 1 Quest Point;
+
+  color:#7D91D7;
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
+ }
+}
