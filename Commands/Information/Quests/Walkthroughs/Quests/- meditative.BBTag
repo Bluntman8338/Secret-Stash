@@ -1,8 +1,10 @@
 {embed;
 {embedBuild;
-Meditative Magic;
-(level 75);
+title:Meditative Magic;
+description:Level Requirements(level 75);
 
+fields.name:__**Quest Walkthrough**__;
+fields.value:
 1. Travel to Silverkeep altar
 2. Talk to Rune Guru
 3. Travel to Copperfall Summit
@@ -14,9 +16,10 @@ Meditative Magic;
 9. Mine for Silver Essence in Silverkeep Altar
 10. Talk to Rune Guru
 11. Get 50k Gold and talk to Rune Guru again(ayeeeee)
-12. Craft a knotted mesh and talk to Rune Guru AGAIN
+12. Craft a knotted mesh and talk to Rune Guru AGAIN;
 
-Rewards:
+fields.name:Rewards:;
+fields.value:
 + Silverkeep Rune
 + 500XP
 + 500G
