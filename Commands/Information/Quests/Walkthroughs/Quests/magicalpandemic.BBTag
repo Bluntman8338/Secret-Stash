@@ -1,0 +1,34 @@
+{embed;
+{embedBuild;
+title:Magical Pandemic;
+description:Level Requirement (level 75)
+- You must first complete **The Land Above** quest in order to gain access to primeval.;
+
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Talk to Clarck at Bibliothecam Magnam
+2. Gather 1 Mystical Lemon, 1 Magical Ore, 1 Water Vial, 3 Wolf Fangs, and 3 Sandy Toilet Paper.
+- /Search for mystical lemon at Lemontree Plaza
+- /Search for magical ore at Redhorn
+- Craft water vials
+- Mummy in Sandy Tomb drops sandy toilet paper
+- Wolf in Copperfall Summit drops wolf fangs
+3. Travel to Biliothecam Magnam and Talk to Clarck
+4. Buy a Mask and Vodka Bottle from Mathila at The Sick Dahlia
+5. Travel to Biliothecam Magnam and Talk to Clarck
+6. Travel to Maple Grove and gather 5 Blood Samples through killing Infected Maple Bears
+7. Travel to Biliothecam Magnam and Talk to Clarck;
+
+fields.name:__**Rewards**__:;
+fields.value:
++ Golden Syringe
++ 15,000 XP
++ 15,000 Gold
++ 1 Quest Point;
+
+color:#7D91D7;
+thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
+}

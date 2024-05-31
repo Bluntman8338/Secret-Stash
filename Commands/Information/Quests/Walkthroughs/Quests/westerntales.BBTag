@@ -1,0 +1,45 @@
+{embed;
+{embedBuild;
+title:Western Tales;
+description:Level Requirement (level 100)
+   - You must first complete Aestons First Firework quest in order to gain access to Aeston.;
+   
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Talk to Cowboy Jack at Scorched Desert in Sariila
+2. Travel to Frostridge and Talk to Oliver
+3. Talk to Smart Thug at Mirror Isle and solve his riddled lock
+   - dictionary, time, 420
+4. Defeat the Smart Thug in battle using /Adv
+5. Talk to Smart Thug again
+6. Talk to Brute Thug at Frostridge Tavern then gather 5 Limoncello Bottle, 2 Gold Bar, and 1 Onyx Gemstone
+7. Talk to Brute Thug again
+8. Talk to Thug Leader at Blackburn Mountain
+9. Gather 30 of Olivers Jewellery by defeating Empowered Thugs in battle
+10. Talk to Thug Leader and defeat him in battle using /Adv
+11. Talk to Thug Leader and /Search for the Ice Water Flasks
+12. Talk to Thug Leader again
+13. Travel to Frostridge and Talk to Oliver
+14. Travel to Scorched Desert and Talk to Cowboy Jack
+15. Travel to Firebend Keep and Talk to Claire
+16. Talk to Claire again, Crack the Morse Code, and answer the codes question
+   - 42
+17. choose your reward:
+• Red Ones - "2 Rubies"
+• Blue Ones - "2 Sapphires"
+• Dark Green Ones - "2 Jades";
+
+fields.name:__**Rewards**__:;
+fields.value:
++ chosen Gemstones
++ a Golden Horseshoe
++ 25,000 XP
++ 50,000 Gold
++ 1 Quest Point;
+
+  color:#7D91D7;
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
+ }
+}
