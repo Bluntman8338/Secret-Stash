@@ -1,11 +1,30 @@
 {embed;
 {embedBuild;
+Meditative Magic;
+(level 75);
 
+1. Travel to Silverkeep altar
+2. Talk to Rune Guru
+3. Travel to Copperfall Summit
+4. Talk to Copperfall Monk
+5. Use #!search to get Lotus blossom
+6. Talk to Copperfall Monk
+7. Return to Silverkeep Altar
+8. Talk to Rune Guru
+9. Mine for Silver Essence in Silverkeep Altar
+10. Talk to Rune Guru
+11. Get 50k Gold and talk to Rune Guru again(ayeeeee)
+12. Craft a knotted mesh and talk to Rune Guru AGAIN
 
+Rewards:
++ Silverkeep Rune
++ 500XP
++ 500G
++ 1 Quest Point;
 
-;
-
-color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  color:#7D91D7;
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
   footer.text:Provided for Secret Stash.
  }
 }
