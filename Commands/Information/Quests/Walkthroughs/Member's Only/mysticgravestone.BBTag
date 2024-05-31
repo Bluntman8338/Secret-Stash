@@ -1,23 +1,31 @@
 {embed;
 {embedBuild;
 
-```md
-[Mystic Gravestone](Member)``````prolog
+Mystic Gravestone;
+Level Requirement (level 30)
+Members Only;
+
+Quest Walkthrough:;
+;
 1. Travel to Thornwood
-2. Talk to Mortimer[#!talk Mortimer]
+2. Talk to Mortimer[/talk Mortimer]
 3. Travel to Thornwood graveyard
-4. Get 3 Skulls using [#!search]
+4. Get 3 Skulls using [/search]
 5. Talk to Mortimer
 6. Get a life crystal by defeating Vampiric demons in Thornwood Graveyard
-7. Talk to Mortimer``````diff
-Rewards:
+7. Talk to Mortimer;
+
+Rewards:;
 + a Demonic Feather
 + 1,500 XP
-+ 1,000 Gold```
++ 1,000 Gold;
 
 ;
 
-color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  color:#7D91D7; 
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; 
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
   footer.text:Provided for Secret Stash.
+ }
  }
 }

@@ -1,8 +1,13 @@
 {embed;
 {embedBuild;
 
-**__```md
-[Menu Specials](Member)```__**```prolog
+
+Menu Specials;
+Level Requirement (level 12)
+Members Only;
+
+Quest Walkthrough:;
+;
 1. Travel to Adventurers Restaurant
 2. Talk to Chef Charles
 3. Talk to Assistant Wendy
@@ -12,16 +17,20 @@
 7. Craft a hamburger(Hamburger => 2 bread + 1 Ham)
 8. Talk to Assistant Wendy
 9. Talk to Chef Charles
-10. Choose between Roasted Bunny or Bunny Stew(This will determine your rewards)``````diff
-Rewards:
+10. Choose between Roasted Bunny or Bunny Stew(This will determine your rewards);
+
+Rewards:;
 + A Bunny Stew/Roasted Bunny
 + 700 XP
 + 750 Gold
-+ 1 Quest Point```
++ 1 Quest Point;
 
 ;
 
-color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  color:#7D91D7; 
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; 
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
   footer.text:Provided for Secret Stash.
+ }
  }
 }
