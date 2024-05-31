@@ -1,7 +1,24 @@
 {embed;
 {embedBuild;
 
-
+```css
+.Quest: Dragon Slayer
+.Location: Island of Desolation. [500g]
+.Navigation: Use [#!map] for a map.
+--------------------------------------------
+.Walkthrough:
+1) Talk to Kadri. [#!talk]
+2) Slay Green Dragon - 5 Hides needed. (ty Felix)
+3) Deliver the hide to Kadri. [#!talk]
+4) Use [#!search] look for the Liveroot.
+5) Deliver the Liveroot to Kadri. [#!talk]
+--------------------------------------------
+.Rewards:
++ A Dragon Trophy
++ 2,000 XP
++ 25,000 Gold
++ 1 Quest Point
+```
 
 ;
 

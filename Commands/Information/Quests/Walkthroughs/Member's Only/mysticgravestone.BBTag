@@ -1,7 +1,19 @@
 {embed;
 {embedBuild;
 
-
+```md
+[Mystic Gravestone](Member)``````prolog
+1. Travel to Thornwood
+2. Talk to Mortimer[#!talk Mortimer]
+3. Travel to Thornwood graveyard
+4. Get 3 Skulls using [#!search]
+5. Talk to Mortimer
+6. Get a life crystal by defeating Vampiric demons in Thornwood Graveyard
+7. Talk to Mortimer``````diff
+Rewards:
++ a Demonic Feather
++ 1,500 XP
++ 1,000 Gold```
 
 ;
 
