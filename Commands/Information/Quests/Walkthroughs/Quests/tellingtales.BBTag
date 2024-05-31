@@ -1,11 +1,29 @@
 {embed;
 {embedBuild;
+title:Telling Tales;
+description:Level Requirement (level 40)
+- You must first complete **The Land Above** quest in order to gain access to primeval.;
 
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Talk to Merga at the Sick Dahlia in Primeval
+2. Craft and gather 3 Crystal Clusters, a Dirty Water Vial, and 3 Olives
+- Cracking 1,500 geodes will give you enough shards
+3. Talk to Merga with the items
+Optional:
+- Battle Leviathan and Asmodeus, at Dingerou Cavern and Blackburn Mountain, to receive the rest of the code.
+- Remember to talk to them after defeating them in battle.
+4. Talk to Merga and input code `4`, `2`, & `0`.
+5. Talk to Merga again to complete the quest;
 
-
-;
+fields.name:__**Rewards**__:;
+fields.value:
++ Witches Knot Pendant
++ 5,000 XP
++ 5,000 gold
++ 1 Quest Point;
 
 color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
- }
+footer.text:Provided for Secret Stash.
+}
 }

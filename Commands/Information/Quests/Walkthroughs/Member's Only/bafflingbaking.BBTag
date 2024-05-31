@@ -1,8 +1,28 @@
 {embed;
 {embedBuild;
-title:
+title:Baffling Baking;
+description:Level Requirement (level 12);
 
+fields.name:__**Quest Walkthrough**__:;
+fields.value:
+1) Talk to Chef Charles. [#!talk]
+2) Craft and deliver 2 bread to Chef Charles.
+- Bread: 2 Salt + 1 Coal + 1 Flour
+3) Craft and deliver a burger to Chef Charles.
+- Burger: 1 Meat + 2 Bread; 
 
+fields.name:__**Ingredients**__:;
+fields.value:```[/craft <item> <amount>]```6 Salt - 3 Rock Salt from [/mine]
+3 Coal - from [/mine]
+3 Flour - [/buy wheat 6]
+1 Meat - from [/trap] for 24 hours;
+
+fields.name:__**Rewards**__:;
+fields.value:
++ A Business Card
++ 1,250 XP
++ 750 Gold
++ 1 Quest Point;
 
 
 

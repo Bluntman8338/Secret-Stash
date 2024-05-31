@@ -1,9 +1,25 @@
 {embed;
 {embedBuild;
+title:Aestons First Firework;
+description:Level Requirement (level 50);
 
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Talk to Pip at Silverkeep.
+2. Travel and talk to Aldea at Aeston Outpost
+3. Travel and talk to the Bandit at Ancient Crypts
+4. Defeat the Bandit using /adv
+5. Talk to the Bandit again to begin the chest puzzle
+Answers: `11`, `16`, `3`
+6. Travel to Silverkeep and talk to Pip;
 
-
-;
+fields.name:__**Rewards**__:;
+fields.value:
++ Defense Potion (non members) 
+OR 
++ Luck Charm (members)
++ Unlock Aeston Kingdom
++ 1 Quest Point;
 
 color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
   footer.text:Provided for Secret Stash.

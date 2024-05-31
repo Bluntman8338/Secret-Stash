@@ -1,11 +1,33 @@
 {embed;
 {embedBuild;
+title:Great Disturbance;
+description:Level Requirement (level 50)
 
+- You must first complete **The Land Above** quest in order to gain access to primeval.
+- This quest is semi complete as there are 2 paths and the quest seems a tad broken.;
 
+fields.name:__**Quest Walkthrough**__;
+fields.value:
+1. Talk to Abigail at Amplewood Island in Aeston;
 
-;
+fields.name:__**Route A**__:;
+fields.value:
+```The following for Route A is assumed until verified```2. Gather 10 Ethernal Shards by killing Ethernals (either at Amplewood or Dimensional Gate)
+3. Talk to Abigail (or maybe Arcanist);
+
+fields.name:__**Route B**__:;
+fields.value:
+2. Travel to Dimensional Gate and Talk to Arcanist (may need 10 Ethernal Shards to be able to talk [#!adv at Dimensional Gate to gather shards])
+3. Gather 10 Ethernal Shards by killing Ethernals (total of 20 shards seems like including the previous step)
+4. Talk to Arcanist;
+
+fields.name:__**Rewards**__:;
+fields.value:
++ 1,500 XP
++ 10,000 Gold
++ 1 Quest Point;
 
 color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
- }
+footer.text:Provided for Secret Stash.
+}
 }
