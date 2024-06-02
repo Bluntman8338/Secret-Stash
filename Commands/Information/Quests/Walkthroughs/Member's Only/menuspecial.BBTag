@@ -1,23 +1,27 @@
 {embed;
 {embedBuild;
-Menu Specials;
-Level Requirement (level 12)
-Members Only;
+title:Menu Specials;
+description:Level Requirement (level 12)
+**Members Only**;
 
-Quest Walkthrough:;
-;
+fields.name:Quest Walkthrough:;
+fields.value:
 1. Travel to Adventurers Restaurant
 2. Talk to Chef Charles
 3. Talk to Assistant Wendy
-4. Craft a Veggie Burger(Veggie Burger => 1 Carrot + 2 Bread + 1 Potato + 1 Bottle of Olive Oil)
+4. Craft a Veggie Burger
+   - Veggie Burger => 1 Carrot + 2 Bread + 1 Potato + 1 Bottle of Olive Oil
 5. Talk to Assistant Wendy
-6. Use [#!search] to find the oil spatula
-7. Craft a hamburger(Hamburger => 2 bread + 1 Ham)
+6. Use /search to find the oil spatula
+7. Craft a hamburger
+   - Hamburger => 2 bread + 1 Ham
 8. Talk to Assistant Wendy
 9. Talk to Chef Charles
-10. Choose between Roasted Bunny or Bunny Stew(This will determine your rewards);
+10. Choose between Roasted Bunny or Bunny Stew
+   - This will determine your rewards;
 
-Rewards:;
+fields.name:__**Rewards**__:;
+fields.value:
 + A Bunny Stew/Roasted Bunny
 + 700 XP
 + 750 Gold
@@ -31,4 +35,3 @@ Rewards:;
   footer.text:Provided for Secret Stash.
  }
  }
-}

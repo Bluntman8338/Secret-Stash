@@ -1,0 +1,34 @@
+{if;{argslength};!=;0;{set;~ulvl;{parseint;{args;0}}};
+{set;~user;{userid}}
+{set;~api-url;https://api.discorddungeons.me/v3}
+{set;~api-key;{get;@dungeonfee-key}}
+{set;~options;
+{inject;{lb}json{semi}
+{lb}
+"method" : "GET",
+"headers" : {lb}
+"Authorization" : "X-API-Key: {get;~api-key}"
+{rb}
+{rb}
+{rb}
+}}
+{set;~body;{jget;{request;{get;~api-url}/user/{get;~user};{get;~options}};body}}
+{set;~ulvl;{jget;{get;~body};level}}
+}
+
+{embed;
+{embedBuild;
+title: Dungeon Fee;
+description:Formula by **@alsatian**
+`(25000+50*Level^1.5)`;
+fields.name:__**Fee for Level {get;~ulvl}**__;
+fields.value:
+The current fee for your level is
+`{numformat;{roundup;{math;+;25000;{math;*;50;{math;^;{get;~ulvl};1,5}}}};;;,}` gold.;
+
+color:#7D91D7;
+thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
+}

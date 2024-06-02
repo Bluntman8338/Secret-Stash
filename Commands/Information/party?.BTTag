@@ -1,0 +1,47 @@
+{embed;
+{embedBuild;
+title:Party Adventures;
+description:**__How to use the /party command__**;
+
+fields.name:[/party create]:;
+fields.value:To create a party;
+
+fields.name:[/party invite <@user>]:;
+fields.value:To invite someone to your party
+(If it is not open);
+
+fields.nameb[/party join <@host>]:;
+fields.value:To join the host's party;
+
+fields.name:[/party toggle open/close]:;
+fields.value:To set make the open/close
+(Open party means that you do not have to invite the user for them to join your party, vice versa for closed party);
+
+fields.name:[/party]:;
+fields.value:To get info on your current party;
+
+fields.name:[/party start]:;
+fields.value:To start the party;
+
+fields.name:[/padv]:;
+fields.value:To fight in the party;
+
+fields.name:[/party leave]:; 
+fields.value:To leave the party
+(You cannot use this if you are the host);
+
+fields.name:[/party disband]:; 
+fields.value:To disbnd the party
+(Only the host can use this);
+
+fields.name:[/party kick <@user>]:;
+fields.value:To kick someone
+(Only the host can use this);
+
+  color:#7D91D7; 
+  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; 
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
+ }
+}
+

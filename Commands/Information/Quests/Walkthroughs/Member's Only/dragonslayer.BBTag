@@ -1,25 +1,25 @@
 {embed;
 {embedBuild;
-Dragon Slayer
-Level Requirement (level 25)
+title:Dragon Slayer;
+description:Level Requirement (level 25)
+**Members Only**;
 
-Quest Walkthrough:;
-;
-1) Talk to Kadri. [/talk]
-2) Slay Green Dragon - 5 Hides needed. (ty Felix)
-3) Deliver the hide to Kadri. [/talk]
-4) Use [#!search] look for the Liveroot.
-5) Deliver the Liveroot to Kadri. [/talk]
+fields.name:__**Quest Walkthrough**__:;
+fields.value:
+1) Talk to Kadri.
+2) Slay Green Dragon - 5 Hides needed.
+3) Deliver the hide to Kadri. [
+4) Use /search to look for the Liveroot.
+5) To deliver the Liveroot, talk to Kadri.;
 
-.Rewards:
+fields.name:__**Rewards**__:;
+fields.value:
 + A Dragon Trophy
 + 2,000 XP
 + 25,000 Gold
 + 1 Quest Point;
 
-  color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
- }
+color:#7D91D7; thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png; footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
 }
