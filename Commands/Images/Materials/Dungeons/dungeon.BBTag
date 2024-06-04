@@ -1,4 +1,4 @@
-{//; Set the array of embed messages here }
+ {//; Set the array of embed messages here }
 {set;~arr;[
   {embedBuild;
     title:Welcome to Secret Stash;

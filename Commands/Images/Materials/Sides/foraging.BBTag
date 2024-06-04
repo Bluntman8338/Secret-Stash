@@ -1,20 +1,11 @@
-{embed;
 {embedBuild;
-  title:__**Custom Command List**__;
-  color:#7D91D7;
-  description:## Prefix is `!` ;
-  fields.name:!foraging;
-  fields.value:
-------------------------------
-> - [Foraging Materials](https://bit.ly/3UUc5th "Foraging") 
-------------------------------
-;
+  title:;
+  description:# __**Foraging**__;
 
 image.url:https://bit.ly/3UUc5th;
 
-thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-footer.text:Provided for Secret Stash.
-}
+color:#7D91D7; 
+  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
  }
-{delete}

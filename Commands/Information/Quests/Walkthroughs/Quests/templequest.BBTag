@@ -8,7 +8,7 @@ fields.value:
 2. Talk Pope Seth
 3. Travel to Copperfall Swamp
 4. Talk to priest
-5. Use #!search to find herb
+5. Use /search to find herb
 6. Talk to priest again
 7. Go back to Temple of MOUKN and talk to Popes Seth.;
 
@@ -21,7 +21,7 @@ fields.value:
 + 1 Quest point;
 
   color:#7D91D7;
-  thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
+  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png;
   footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
   footer.text:Provided for Secret Stash.
    }

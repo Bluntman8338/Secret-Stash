@@ -1,0 +1,27 @@
+{embed;
+{embedBuild;
+title:Pets;
+description:;
+fields.name:__**Criterias**__;
+fields.value:
+- Level 5
+- Have a butterfly net in your inventory;
+
+fields.name:__**Catching**__;
+fields.value:
+- Use '/catch'
+- Catch rate/chance is '((user.level*5.678)/10)'
+  - Rate is increased by the attribute 'taming';
+
+fields.name:__**Leveling and editing pet**__;
+fields.value:
+- Use '/pset xprate <0-100>' to adjust the amount of XP your pet earns.
+- Use '/pset name <name>' to edit your pets name
+- Use '/pset image <URL>' and '/pset display 2' to set a pet image.;
+
+color:#7D91D7;
+thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png;
+footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+footer.text:Provided for Secret Stash.
+}
+}
