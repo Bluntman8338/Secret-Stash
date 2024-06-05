@@ -57,7 +57,7 @@
       thumbnail.url:{get;_thumbnail};
       footer.icon_url:{get;_footer.icon};
       footer.text:{get;_footer.text}
-},
+}
 ]}
 
 {//; Set the starting page }
