@@ -6,10 +6,10 @@
     fields.name:Recommended Build;
     fields.value:The most recommended build is a Strength & XP Boost!;
 
-color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
     
     {embedBuild;
@@ -23,10 +23,10 @@ fields.name: • __**GoldBoost**__;
 fields.value: - Increases your gold gain, from killing mobs, by percentage.
     - Formula :: +1% for every 10 goldboost points;
     
- color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+       color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
     
       {embedBuild;
@@ -43,10 +43,10 @@ fields.name: • __**Defence**__;
 fields.value: - Reduces the damage you take
     - Formula :: +1 damge reduction for every 10 defence points;
     
- color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+       color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
 
 {embedBuild;
@@ -78,10 +78,10 @@ fields.value: - Increases the amount of logs you get from /chop
     - Formula :: +1 log for every 25 lumber boost points
     - Extra :: +1 Chop skill XP per 125 points;
     
-color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  }
 ]}
 

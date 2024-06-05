@@ -4,10 +4,10 @@
     title:Welcome to Secret Stash;
     description:!dungeon;
     
- color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
 
   {embedBuild;
@@ -36,10 +36,10 @@
 > `(25000+50*Level^1.5)`
 > - You have to pay a certain amount of Gold EVERY time you enter a dungeon;
 
-color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
 
   {embedBuild;
@@ -82,10 +82,10 @@ color:#7D91D7;
 > 6. Take the stairs using ✅  to go to the next floor, or ⏺ to leave.;
 
       image.url:https://bit.ly/Drpg-Dungeon_Example1;
-    color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
 
   {embedBuild;
@@ -94,10 +94,10 @@ color:#7D91D7;
 
     image.url:https://bit.ly/Drpg-Dungeons;
 
-color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  },
 
 {embedBuild;
@@ -141,10 +141,10 @@ fields.value:
 - Opal: +5% Critical Chance
 - Onyx: +1% Life Steal```;
 
-color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  }
 ]}
 

@@ -64,8 +64,8 @@ __**Elemental Air Shears**__
 - +33 items, +30 Skill XP
    - __**Recipe**__:```5,000 Maple Logs + 5,000 Pine Logs + 1 Shears + 125 Anaphasite Ingots + 8 Air Runes```;
    
-color:#7D91D7; 
-  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
-  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-  footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
  }

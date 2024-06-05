@@ -4,59 +4,59 @@
   {embedBuild;
     title:Welcome to Secret Stash;
     description:## !maps1;
-    color:#7D91D7;
-
-    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-    footer.text:Provided for Secret Stash.
+    
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
     },
 
   {embedBuild;
     title:__**Map of**__;
-    color:#7D91D7;
     description:## Aeston;
 
     image.url:https://bit.ly/Drpg_Map-Aeston;
 
-    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-    footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
 },
 
     {embedBuild;
     title:__**Map of**__;
-    color:#7D91D7;
     description:## Glimmerhelm;
 
     image.url:https://bit.ly/Drpg_Map-Glimmerhelm;
 
-    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-    footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
 },
 
   {embedBuild;
     title:__**Map of**__;
-    color:#7D91D7;
     description:## Brimstone;
 
     image.url:https://bit.ly/Drpg_Map-Brimstone;
 
-    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-    footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
 },
 
   {embedBuild;
     title:__**Map of**__;
-    color:#7D91D7;
     description:## Caeli;
 
     image.url:https://bit.ly/Drpg_Map-Caeli;
 
-    thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-    footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-    footer.text:Provided for Secret Stash.
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
 },
 ]}
 
