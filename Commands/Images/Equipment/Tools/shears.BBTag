@@ -1,20 +1,71 @@
-{embed;
 {embedBuild;
-  title:__**Custom Command List**__;
-  color:#7D91D7;
-  description:## Prefix is `!` ;
-  fields.name:!;
-  fields.value:
-------------------------------
-> - [Shears](https://bit.ly/Drpg-Shears "Shears")
-------------------------------
-;
+title:__**Tools**__;
+description:# Shears;
+fields.name:__**Shears**__;
+fields.value:
+- +0 items
+   - __**Shop**__```1,500g```  
 
-image.url:https://bit.ly/Drpg-Shears;
+__**Copper Shears**__ 
+- Level 5 | Forage 2 
+- +1 item
+   - __**Recipe**__```1 Shears + 2 Coal + 2 Copper Ingots + 2 Oak Logs```
 
-thumbnail.url:https://gyazo.com/35e5c1fdef0c4898c7a74b5250687b46.png;
-footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
-footer.text:Provided for Secret Stash.
-}
+__**Zinc Shears**__ 
+- Level 10 | Forage 5 
+- +2 items
+   - __**Recipe**__```1 Copper Shears + 3 Zinc Ingots + 1 Willow Log + 1 Oak Log```
+
+__**Iron Shears**__ 
+- Level 20 | Forage 10 
+- +3 items
+   - __**Recipe**__```1 Zinc Shears + 5 Iron Ingots + 2 Logs + 2 Oak Logs + 2 Willow Logs```;
+   
+
+fields.name:__**Garland Garden Shears**__;
+fields.value:
+- Level 30 | Forage 15 
+- +4 items
+   - Complete the quest:```[Naughty or Nice Elves] (EXPIRED)```
+
+__**Steel Shears**__ 
+- Level 30 | Forage 15 
+- +5 items 
+   - __**Recipe**__: ```1 Iron Shears + 9 Coal + 6 Steel Ingots + 4 Willow Logs + 2 Fir Logs + 1 Pine Log```
+
+__**Leptocite Shears**__ 
+ - Level 40 | Forage 30 
+ - +8 items, +5% Skill XP Boost   - __**Recipe**__:```1 Steel Shears + 9 Leptocite Ingots + 1 Zinc Ingot + 1 Brass Ingot + 2 Maple Logs + 1 Ash Log + 3 Poplar Logs + 4 Fire Crystals```
+
+__**Laxis Shears**__ 
+- Level 100 | Forage 40
+- +14 items, +10 Skill XP
+   - __**Recipe**__:```1 Leptocite Shears + 8 Laxis Ingots + 8 Iron Ingots + 16 Cherry Logs `[Level 100 to craft```;
+
+
+fields.name:__**Elemental Water Shears**__;
+fields.value:
+- Level 300 | Forage 50
+- +18 items, +17 Skill XP
+   - __**Recipe**__:```1 Shears + 1 ,000 Willow logs + 1,000 Poplar logs + 80 Anaphasite ingots + 2 Water Runes```
+
+__**Elemental Earth Shears**__ 
+- Level 300 | Forage 60
+- +21 items, +21 Skill XP
+   - __**Recipe**__:```2,000 Oak Logs + 2,000 Fir Logs + 1 Shears + 100 Anaphasite Ingots + 4 Earth Runes```
+
+__**Elemental Fire Shears**__ 
+- Level 300 | Forage 80
+- +26 items, +23 Skill XP
+   - __**Recipe**__:```4,000 Ash Logs + 4,000 Cherry Logs + 1 Shears + 115 Anaphasite Ingots + 8 Fire Runes```
+
+__**Elemental Air Shears**__ 
+- Level 300 | Forage 90
+- +33 items, +30 Skill XP
+   - __**Recipe**__:```5,000 Maple Logs + 5,000 Pine Logs + 1 Shears + 125 Anaphasite Ingots + 8 Air Runes```;
+   
+color:#7D91D7; 
+  thumbnail.url:https://gyazo.com/5cc4c42f60406d8218e49e5adacc0c73.png; 
+  footer.icon_url:https://gyazo.com/66d2c30221d0d14aca027b79dc68469f.png;
+  footer.text:Provided for Secret Stash.
  }
-{delete}
