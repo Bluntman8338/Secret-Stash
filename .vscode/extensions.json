@@ -4,6 +4,9 @@
         "ymaninho.theme-purple-codain",
         "github.vscode-pull-request-github",
         "donjayamanne.githistory",
-        "lihui.vs-color-picker"
+        "lihui.vs-color-picker",
+        "mkxml.vscode-filesize",
+        "palaso.just-files",
+        "alfnielsen.vsc-rename-files"
     ]
 }

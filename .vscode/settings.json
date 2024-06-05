@@ -13,6 +13,10 @@
       "material-icon-theme.files.color": "#C5C4F9",
       "material-icon-theme.folders.color": "#956CB2",
       "material-icon-theme.folders.theme": "classic",
-      "material-icon-theme.hidesExplorerArrows": false
+      "material-icon-theme.hidesExplorerArrows": false,
+      "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+      "filesize.showBrotli": true,
+      "filesize.showGzipInStatusBar": true,
+      "filesize.useDecimal": true
 }
 
