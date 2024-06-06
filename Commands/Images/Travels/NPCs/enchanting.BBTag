@@ -1,0 +1,18 @@
+**NPC:** Theodora the Enchantress
+**Location:** Bibliothecam Magnam at Primeval
+**Level Req:** 50
+
+Talk to Theodora to add or remove gem effects to weapons, rings, armor, necklaces and tools
+_ _
+• Make sure your item has a socket (`tagbot blacksmith`)
+• Each gem gives a different effect, check `tagbot gemeffects`
+• There is a 20% chance of failing the first effect, and 36% for the second. If you fail you will lose the LUX and the gem will break.
+_ _
+Price to upgrade:
+`ceil(item.level/30)`
+Price to upgrade rings:
+50 LUX
+_ _
+Related tags:
+To get LUX: `tagbot task?`
+Gem Effects: `tagbot gemeffects`
