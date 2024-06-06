@@ -1,0 +1,34 @@
+{embed;
+{embedBuild;
+title:NPC;
+description:
+# **Urist the Blacksmith**
+- **Location:** Redhorn
+   - **Level Requirement:** 10;
+
+fields.name:Talk to Urist to upgrade an item.;
+fields.value: __**Two types of Upgrades**__:;
+
+fields.name:__**Upgrade for Damage**__;
+fields.value:
+ Increases **weapon** damage.
+```• Adding `damage upgrade` will make your weapon heavier, thus needing Strength attribute to use.
+• There is no max for this upgrade.
+• Formula for strength required: 15 * # of upgrades```;
+
+fields.name:__**Upgrade for Effects**__;
+fields.value:Gives an item special enchantments.
+```• After adding a Gem Socket, you can go to the Enchantress to enchant your weapon, armor, tool, ring or necklace.
+• Max of 2 sockets per item.
+• 20% chance of first socket failing, and 36% chance for the second. You will lose the gold and are able to try again.``````!enchanting for info on enchanting.```;
+
+fields.name:__**NOTE**__:; 
+fields.value:
+```You will need to unequip or have at least one upgradeable item in your inventory, as well as have NO current quest otherwise talking the NPC will not work```;
+
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
+       }
+      }
