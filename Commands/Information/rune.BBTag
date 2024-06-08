@@ -1,0 +1,33 @@
+{embed;
+{embedBuild;
+title:__**Runes**__:;
+description:Used to teleport to certain locations without having the bother to go through all the connections.;
+
+fields.name:__**Fully Released Runes**__:;
+fields.value:
+- Silverkeep Rune
+- Copperfall Rune
+- Ravengate Rune
+- Sariila Rune
+- Frostridge Rune
+- Miree Rune
+- Lemontree Rune
+- Aeston Rune
+- Glimmerhelm Rune
+- Clayder Rune
+- Caeli Rune;
+
+fields.name:__**Information**__;
+fields.value:
+```- Runes must be crafted at their respective Altars
+- Runes need 1 Knotted Mesh, 3 Essence and 50,000g to craft
+- You can buy an upgrade to hold more runes in your #!inv from Peter at Sanctum of Serenity, Primeval
+- Runes are a consumable, meaning 1 rune = 1 use
+- `/runes` shows all the runes in your inv```;
+
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
+ }
+}

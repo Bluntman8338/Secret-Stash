@@ -1,0 +1,27 @@
+{embed;
+{embedBuild;
+title:Trading;
+description:
+- Getting information on a trade :: `/m view offer:<trade id>`
+NOTE: Use `!stoptrade?' if you do not know how to stop your trades;
+
+fields.name:== (__**SELLING TRADES**__) ==;
+fields.value:`[Selling trades = trades you buy from]`
+- List of selling trades :: `/m list item item: market:`
+- Executing trade :: /gmbuy <trade id> <amount>
+- Finding a trade to buy an item from :: /gmsearch <item>
+- Putting up a selling trade :: /gmsell <item> <quantity> <price per item>;
+
+fields.name:== (__**BUYING TRADES**__) ==;
+fields.value:`[Buying trades = trades you sell to]`
+- List of buying trades :: `/m list item item: market:` 
+- Executing trade :: `/m buy offer: amount:`
+- Finding a trade to sell an item to :: /gbsearch <item>
+- Putting up a buying trade :: `/m create selling item: amount: price:`;
+
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
+ }
+}
