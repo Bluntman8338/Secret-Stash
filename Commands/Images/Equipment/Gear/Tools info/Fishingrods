@@ -1,0 +1,63 @@
+__**Fishing Rod**__
+- +0 items
+   - 1,500g in shop  
+
+### __**Copper Fishing Rod**__
+- Level 5 | Forage 2 
+- +1 item
+   - __**Recipe**__```1 Fishing Rod + 2 Coal + 2 Copper Ingots + 2 Oak Logs```
+
+### __**Zinc Fishing Rod**__
+- Level 10 | Forage 5 
+- +2 items
+   - __**Recipe**__```1 Copper Fishingrod + 3 Zinc Ingots + 1 Willow Log + 1 Oak Log```
+
+### __**Iron Fishing Rod**__
+- Level 20 | Forage 10 
+- +3 items
+   - __**Recipe**__```1 Zinc Fishingrod + 5 Iron Ingots + 2 Logs + 2 Oak Logs + 2 Willow Logs```
+
+__**Angler’s Rod**__
+- Level 25 | Fish 1 
+- +1 item, +2 Catch Chance
+  - Complete the quest: `[Fickle Fishing]`  
+
+### __**Steel Fishing Rod**__
+- Level 30 | Forage 15 
+- +5 items 
+   - __**Recipe**__: ```1 Iron Fishingrod + 9 Coal + 6 Steel Ingots + 4 Willow Logs + 2 Fir Logs + 1 Pine Log```
+
+### __**Leptocite Fishing Rod**__
+ - Level 40 | Forage 30 
+ - +8 items, +5% Skill XP Boost 
+  - __**Recipe**__:```1 Steel Fishingrod + 9 Leptocite Ingots + 1 Zinc Ingot + 1 Brass Ingot + 2 Maple Logs + 1 Ash Log + 3 Poplar Logs + 4 Fire Crystals```
+
+__**Felix’s Bait Rod**__
+- Level 100 | Fish 10 
+- +3 items, +3 Catch Chance
+ - 20 LUX from Felix at Lemon Tree Plaza (Primeval)
+
+### __**Laxis Fishing Rod**__
+- Level 100 | Forage 40
+- +14 items, +10 Skill XP
+   - __**Recipe**__:```1 Leptocite Fishingrod + 8 Laxis Ingots + 8 Iron Ingots + 16 Cherry Logs```
+
+### __**Elemental Water Fishing Rod**__
+- Level 300 | Forage 50
+- +18 items, +17 Skill XP
+   - __**Recipe**__:```1 Fishingrod + 1 ,000 Willow logs + 1,000 Poplar logs + 80 Anaphasite ingots + 2 Water Runes```
+
+### __**Elemental Earth Fishing Rod**__
+- Level 300 | Forage 60
+- +21 items, +21 Skill XP
+   - __**Recipe**__:```1 Fishingrod + 2,000 Oak Logs + 2,000 Fir Logs + 100 Anaphasite Ingots + 4 Earth Runes```
+
+### __**Elemental Fire Fishing Rod**__
+- Level 300 | Forage 80
+- +26 items, +23 Skill XP
+   - __**Recipe**__:```1 Fishingrod + 4,000 Ash Logs + 4,000 Cherry Logs + 115 Anaphasite Ingots + 8 Fire Runes```
+
+### __**Elemental Air Fishing Rod**__
+- Level 300 | Forage 90
+- +33 items, +30 Skill XP
+   - __**Recipe**__:```1 Fishingrod + 5,000 Maple Logs + 5,000 Pine Logs + 125 Anaphasite Ingots + 8 Air Runes```
