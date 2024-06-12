@@ -1,0 +1,93 @@
+What are Guilds for?
+- For fun because this is a RPG after all
+- Banks, to store gold in case you die
+- Storage of items to tidy your inventory
+- Gaining support from others/Helping others
+
+Where do you find Guilds to join?
+— Look in the https://discord.com/channels/172382467385196544/260363601158733825 channel in the official DRPG server
+- Ask players to invite you into their guild
+- To join a Guild use [`/g join <guild name>`]
+- To create a Guild use [`/g create name: <guild name>`]
+- To leave a Guild use [`/g leave`]
+
+------------------------------
+
+These setting can be applied through the `/g info` command 
+
+
+Guild.Sign{80G};
+- Used to change your guilds name
+  
+
+Guild.Tag{1,000G}
+- Used to set your guilds tag
+
+Guild.Slot.Expansion{1.5kG};
+- Used to increase your maximum guild members by 10
+
+Guild.Display.Upgrade{5mG};
+- Enables the guild(owner) to get an embed guild display
+
+Custom.Guild.Icon{5mG};
+- Enables the guild(owner) to customise their guild icon
+
+Custom.Guild.Image{7.5mG};
+- Enables the guild(owner) to set a guild image
+
+Dedicated.Channel{10mG};
+- Enables the guild(owner) to have a guild channel in the official DiscordRPG server
+
+------------------------------
+
+**__Guild related commands__**
+
+[`/g create name: <name>`];
+- Creates a guild if you are not in one, you need to be level 5
+
+[`/g join name: <guild name>`]
+- Joins the guild that you specified
+
+[`/g leave`]
+- Leave your current guild
+
+[`/g ally`]
+- Manages your Allies
+_ _
+[`/g members invite user: <name>`];
+- Invites a user to your guild if your guild is closed, can only be used by guild owners/elders
+
+[`/g members view <guild name>`]
+- Returns a list of members in your guild or another guild if specified
+
+[`/g members kick user: <name>` ]
+- Kicks a user from the guild, can only be used by guild owners/elders
+
+[`/g members setrole user: role:`]
+- Changes a guild members role;
+_ _
+[`/g permissions set permissions: user: role:`];
+- Idk how to use this, it is too complicated and kida useless anyways XD
+
+[`/g deposit what: quantity:` ]
+- Deposits any amount of gold or items into your guild
+
+[`/g withdraw what: quantity:`]
+- Withdraws gold or any item from the guild if you are the owner or elder of the guild
+_ _
+[`/g items`]
+-Returns a list of guild items
+
+[`/g item view name: <item>`] :: Returns the info of the item
+
+[`/g item buy name: <item>`] :: Buys a guild item in [`/g item view`]
+
+[`/g icon list`];
+Returns a list of icons you can use as your guild icon;
+
+[`/g icon buy name: <icon>`];
+Buys an icon you can use as your guild icon;
+_ _
+[`/g blacklist add/remove/view user:`];
+ Blacklists specified user from entering the guild
+;
