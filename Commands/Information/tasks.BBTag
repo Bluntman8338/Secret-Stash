@@ -1,0 +1,28 @@
+{embed;
+{embedBuild;
+title:A guide for Tasks;
+description:/task is a daily/24h side activity for you to do!;
+
+fields.name:Its simple,;
+fields.value:/talk to Alex in Lemontree Plaza, he will tell you a task to collect X amount of an item and deliver them to a Primeval citizen. You will then decide if you wanna decline or accept the task!;
+
+fields.name:If you ACCEPT a task:;
+fields.value:You will have to collect the items asked for and proceed to talk to the NPC who asked for them.;
+
+fields.name:If you DECLINE a task:;
+fields.value:You can talk to Alex again for a different task!;
+
+fields.name:FORGOT your task?;
+fields.value:Do /task check;
+
+fields.name:Dont wanna do your task after accepting?;
+fields.value:Send /task cancel;
+
+fields.name:REWARDS for doing a task?;
+fields.value:You can get XP and LUX currency!;
+      color:{get;_color};
+      thumbnail.url:{get;_thumbnail};
+      footer.icon_url:{get;_footer.icon};
+      footer.text:{get;_footer.text}
+ }
+}
