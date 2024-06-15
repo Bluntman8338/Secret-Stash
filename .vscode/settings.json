@@ -3,7 +3,7 @@
     "editor.wordWrap": "on",
     "editor.fontSize": 20,
     "workbench.commandPalette.experimental.suggestCommands": true,
-    "workbench.colorTheme": "Purple-Codain",
+    "workbench.colorTheme": "Black and Yellow - Carnage",
     "workbench.preferredDarkColorTheme": "Default Dark Modern",
     "bbtag.trace.server": "verbose",
     "bbtag.maxNumberOfProblems": 100,
